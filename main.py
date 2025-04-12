@@ -36,7 +36,7 @@ keep_alive()
 # Initialize the Telegram bot
 API_TOKEN = os.getenv("API_TOKEN")
 FORCE_JOIN_CHANNEL = os.getenv("FORCE_JOIN_CHANNEL")
-ADMIN_ID = os.getenv("ADMIN_ID")
+ADMIN_ID = os.getenv("9712671935")
 
 bot = telebot.TeleBot(API_TOKEN)
 
